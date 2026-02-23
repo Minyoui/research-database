@@ -9,7 +9,8 @@ interface HeroProps {
 const Hero: React.FC<HeroProps> = ({ className }) => {
     return (
         <div className={`relative h-screen w-full flex items-center justify-center ${className}`}>
-            <div className="flex flex-col z-20">
+            <div className="flex flex-col items-center space-y-5 z-20">
+                <div className="bg-white rounded-[100%] h-60 w-60"/>
                 <h1 className="font-inter text-4xl text-white font-bold text-center">Institute Research Library</h1>
                 <ul className="flex flex-col items-center space-y-5 my-3">
                     {homeLink.map((list) => (
