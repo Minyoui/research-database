@@ -7,10 +7,10 @@ interface NavProps {
 
 const Nav: React.FC<NavProps> = ({ className }) => {
     return (
-        <nav className="w-full">
+        <nav className="w-full fixed z-50 bg-white/35 p-6">
             <ul className="flex items-center gap-5">
                 {links.map((link) => (
-                    <li key={link.label}>
+                    <li key={link.label} className="">
                         <Link href={link.path}>{link.label}</Link>
                     </li>
                 ))}

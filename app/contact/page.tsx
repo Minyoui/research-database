@@ -1,5 +1,5 @@
 
-const Dashboard = () => {
+const Contact = () => {
     return (
         <main>
 
@@ -7,4 +7,4 @@ const Dashboard = () => {
     );
 };
 
-export default Dashboard;
+export default Contact;

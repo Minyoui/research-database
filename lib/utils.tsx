@@ -14,3 +14,18 @@ export const links = [
         path: "/login" satisfies Route,
     },
 ];
+
+export const homeLink = [
+    {
+        label: "View Database",
+        path: "/dashboard" satisfies Route,
+    },
+    {
+        label: "About",
+        path: "/about" satisfies Route,
+    },
+    {
+        label: "Ask for Help",
+        path: "/contact" satisfies Route,
+    }
+];
